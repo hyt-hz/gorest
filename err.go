@@ -9,10 +9,10 @@ type RestErr struct {
 	ErrMSG  string `json:"errmsg"`
 }
 
-func (err *RestErr) Error() {
+func (err *RestErr) Error() string {
 	if err.ErrCode == ECNonRestErr {
 		return err.ErrMSG
 	} else {
-		return fmt.Printf("REST error %d %s", err.ErrCode, err.ErrMSG)
+		return fmt.Sprintf("REST error %d %s", err.ErrCode, err.ErrMSG)
 	}
 }
