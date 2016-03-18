@@ -1,8 +1,8 @@
-package myhttp
+package gorest
 
 import (
-	"log"
 	"golang.org/x/net/context"
+	"log"
 	"net/http"
 )
 

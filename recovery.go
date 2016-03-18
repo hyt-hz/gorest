@@ -1,11 +1,11 @@
-package myhttp
+package gorest
 
 import (
 	"bytes"
 	"fmt"
-	"log"
 	"golang.org/x/net/context"
 	"io/ioutil"
+	"log"
 	"net/http"
 	"runtime"
 )

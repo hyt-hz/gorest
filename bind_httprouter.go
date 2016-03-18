@@ -1,4 +1,4 @@
-package myhttp
+package gorest
 
 import (
 	"github.com/julienschmidt/httprouter"

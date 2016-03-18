@@ -1,4 +1,4 @@
-package myhttp
+package gorest
 
 import (
 	"golang.org/x/net/context"
